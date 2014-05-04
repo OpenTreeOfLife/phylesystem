@@ -22,7 +22,7 @@ with pull requests soon.
 
 Most users will only want/need to run the 
 
-    $ sh pull-studies.sh
+    $ bash pull-studies.bash
 
 script to fetch and pull the latest NexSON for all of the shards
 
