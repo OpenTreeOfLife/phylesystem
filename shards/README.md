@@ -1,0 +1,1 @@
+This directory should be treated as read-only.
