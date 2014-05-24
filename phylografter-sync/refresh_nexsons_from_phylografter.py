@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 from peyotl.phylografter.sync import PhylografterNexsonDocStoreSync
 import sys
+import os
+
 def get_default_dir_dict(top_level=None):
     r = '.' if top_level is None else top_level
     t = os.path.abspath(r)
