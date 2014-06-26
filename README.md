@@ -7,9 +7,8 @@ to as ``shards'' in much of our documentation/email discussions.
 
 Phylesystem serves as a crude database storage for the 
 web services implemented using the code base
-[api.opentreeoflife.org](https://github.com/OpenTreeOfLife/api.opentreeoflife.org).
-This layer is often referred to as "the API" (though a better name 
-would probably be "NexSON services API")
+[phylesystem-api](https://github.com/OpenTreeOfLife/phylesystem-api).
+This layer is the API for accessing the NexSON data store. 
 
 Currently we do not support pull requests to the shards.
 The server running the NexSON services API is the only 
