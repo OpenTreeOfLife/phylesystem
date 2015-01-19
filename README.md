@@ -3,7 +3,13 @@
 This is the top-level repository in the Open Tree of Life
 phylogenetic study document store.
 The data are actually stored in different repositories referred
-to as ``shards'' in much of our documentation/email discussions.
+to as "shards" in much of our documentation/email discussions.
+
+If you want to browse the data in phylesystem, you can
+look at the repository for the only shard. The repo is at https://github.com/OpenTreeOfLife/phylesystem-1
+If you want to find study `ot_WXYZ` you should look in `study/ot_YZ/ot_WXYZ/ot_WXYZ` (in other words, in the
+study subdirectory look in the directory named using the study's prefix ("ot_" or "pg_") followed by the last 2 digits of the ID. In that directory there will be a subdirectory that corresponds to the study ID.
+and the JSON file will be in that directory.
 
 Phylesystem serves as a crude database storage for the 
 web services implemented using the code base
@@ -15,7 +21,7 @@ The server running the NexSON services API is the only
 writer. We hope to add functionality to smoothly deal
 with pull requests soon.
 
-
+See [our preprint on phylesystem](http://biorxiv.org/content/early/2015/01/16/013862) for details.
 
 # Usage
 
