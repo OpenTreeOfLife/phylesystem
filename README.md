@@ -21,7 +21,7 @@ The server running the NexSON services API is the only
 writer. We hope to add functionality to smoothly deal
 with pull requests soon.
 
-See [our preprint on phylesystem](http://biorxiv.org/content/early/2015/01/16/013862) for details.
+See [our publication on phylesystem](http://dx.doi.org/10.1093/bioinformatics/btv276) for details.
 
 # Usage
 
